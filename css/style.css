@@ -2,13 +2,41 @@ nav .brand-logo {
     padding-left: 10px;    
 }
 
-header {
-    padding-top: 50px;
+header .container {
+    margin-top: 20%;
+}
+
+section {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+header p {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.background {
+    background-image: url("../img/portofolio/table_desk.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
 }
 
 .services {
     margin-top: 100px;
 }
+
+/* removes fixed card height
+.card.small {
+  height: auto;
+}
+.card.small .card-content {
+  height: auto;
+}
+.card.small .card-action {
+  position: relative;
+} */
 
 .card-title {
     padding-bottom: 10px;
