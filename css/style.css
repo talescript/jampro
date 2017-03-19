@@ -1,14 +1,26 @@
+body {
+    background-color: black;
+}
+
 nav .brand-logo {
     padding-left: 10px;    
 }
 
-header .container {
-    margin-top: 20%;
+.services.row {
+    margin-bottom: 0;
 }
 
-section {
-    margin-top: 15%;
-    margin-bottom: 15%;
+#services {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card {
+    margin: 0;
+}
+
+footer a {
+    margin-right: 15px;
 }
 
 header p {
@@ -17,31 +29,32 @@ header p {
 }
 
 .background {
-    background-image: url("../img/portofolio/table_desk.jpg");
+    padding-top: 20%;
+}
+
+.background {
+    background-image: url("../img/portofolio/coffee.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
 }
 
-.services {
-    margin-top: 100px;
+main section .card,
+#portofolio,
+.damn {
+    background-color: #424242;
 }
 
-/* removes fixed card height
-.card.small {
-  height: auto;
-}
-.card.small .card-content {
-  height: auto;
-}
-.card.small .card-action {
-  position: relative;
-} */
-
-.card-title {
-    padding-bottom: 10px;
+.damn {
+    padding: 12vh;
 }
 
-footer a {
-    margin-right: 15px;
+#services,
+#contact {
+    background-color: black;
+    color: white;
+}
+
+.center-btn {
+    text-align: center;
 }
