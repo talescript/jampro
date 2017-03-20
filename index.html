@@ -282,7 +282,7 @@
                 <div class="col s12">
                     <h3 class="center-align teal-text text-accent-2">Our Location</h3>
                 </div>
-                <div id="map"></div>
+                <div id="map" onload="initMap()"></div>
             </div>
         </section>
 
@@ -352,19 +352,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
-    <script>
-        function initMap() {
-            var uluru = { lat: 8.988971, lng: -79.5243938 };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 18,
-                center: uluru
-            });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
-    </script>                               <!-- REPLACE 'API-KEY' with the key from google's website -->
+
+                                                <!-- REPLACE 'API-KEY' with the key from google's website -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=API-KEY&callback=initMap"></script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
