@@ -8,32 +8,39 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav>
-        <div class="nav-wrapper grey darken-4">
-            <a href="#!" class="brand-logo teal-text text-accent-2">Jampro</a>
-            <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a class="btn grey darken-3" href="#about">About</a></li>
-                <li><a class="btn grey darken-3" href="#services">Services</a></li>
-                <li><a class="btn grey darken-3" href="#portofolio">Portofolio</a></li>
-                <li><a class="btn grey darken-3" href="mobile.html">Customers</a></li>
-                <li><a class="btn grey darken-3" href="#contact">Contact</a></li>
-            </ul>
-            <ul class="side-nav grey darken-4" id="mobile">
-                <li><a class="grey darken-3" href="#about">About</a></li>
-                <li><a class="grey darken-3" href="#services">Services</a></li>
-                <li><a class="grey darken-3" href="#portofolio">Portofolio</a></li>
-                <li><a class="grey darken-3" href="mobile.html">Customers</a></li>
-                <li><a class="grey darken-3" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <a href="#top" class="brand-logo teal-text text-accent-2">Jampro</a>
+                <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#market">Market</a></li>
+                    <li><a href="#client">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <ul class="side-nav grey darken-4" id="mobile">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#market">Market</a></li>
+                    <li><a href="#client">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <header>
         <div class="background">
@@ -44,7 +51,7 @@
                         <p class="header col s12 light">Somos un estudio de Eventos / Relaciones Públicas / Creación & Diseño / Tecnología</p>
                     </div>
                     <div class="row center">
-                        <a href="#contact" id="download-button" class="btn-large waves-effect waves-light orange">Contact Us</a>
+                        <a href="#location" id="download-button" class="btn-large waves-effect waves-light pink accent-3">Find Us</a>
                     </div>
                 </div>
             </div>
@@ -54,23 +61,23 @@
     <main class="">
         <section class="damn" id="about">
             <div class="container">
-            <div class="card">
-                <div class="card-content">
-                    <span class="card-title activator center teal-text text-accent-2">About<i class="material-icons right">expand_more</i></span>
-                    <p>Apasionados por nuestros eventos, buscamos inspirar, nos obsesionan los detalles & creamos experiencias
-                        personalizadas. Cada proyecto es único, ejecutado por un equipo enfocado en crear conexiones entre
-                        nuestras marcas y su audiencia, generando estrategias innovadoras con resultados medibles.
-                    </p>
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="card-title activator center teal-text text-accent-2">About<i class="material-icons right">expand_more</i></h3>
+                        <p class="white-text">Apasionados por nuestros proyectos, buscamos inspirar, nos obsesionan los detalles & creamos experiencias
+                            personalizadas. Cada proyecto es único, ejecutado por un equipo enfocado en crear conexiones
+                            entre nuestras marcas y su audiencia, generando estrategias innovadoras con resultados medibles.
+                        </p>
+                    </div>
+                    <div class="card-reveal grey darken-3">
+                        <h3 class="card-title center teal-text text-accent-2">About<i class="material-icons right">close</i></h3>
+                        <p class="white-text">La creatividad es nuestra herramienta maestra para conceptualizar, diseñar gráficamente y crear a
+                            través de la tecnología, formas innovadoras de contar historias, usamos la multimedia para convertir
+                            ideas en #ExperienciasExtraordinarias Gracias al performance de un talentoso equipo, logramos
+                            resultados creando nuevas soluciones, haciendo uso de la tecnología, el espacio, la emoción,
+                            las historias… Es así cómo lo hacemos.</p>
+                    </div>
                 </div>
-                <div class="card-reveal grey darken-3">
-                    <span class="card-title center teal-text text-accent-2">About<i class="material-icons right">close</i></span>
-                    <p>La creatividad es nuestra herramienta maestra para conceptualizar, diseñar gráficamente y crear a través
-                        de la tecnología, formas innovadoras de contar historias, usamos la multimedia para convertir ideas
-                        en #ExperienciasExtraordinarias Gracias al performance de un talentoso equipo, logramos resultados
-                        creando nuevas soluciones, haciendo uso de la tecnología, el espacio, la emoción, las historias…
-                        Es así cómo lo hacemos.</p>
-                </div>
-            </div>
             </div>
         </section>
 
@@ -122,7 +129,7 @@
             </section>
         </div>
 
-        <section class="section portofolio" id="portofolio">
+        <section class="section project" id="project">
             <div class="row">
                 <div class="col s12">
                     <h3 class="center-align teal-text text-accent-2">Proyects</h3>
@@ -152,14 +159,141 @@
             </div>
         </section>
 
-        <section class="section" id="contact">
+        <section class="section" id="market">
+            <div class="container">
+                <div class="row center">
+                    <h3 class="teal-text text-accent-2">Market</h3>
+                    <div class="col s12">
+                        <p class="white-text">Hemos crecido en Centro y Sur América. Ya contamos con Partners y gestión activa, en: Panamá, Costa
+                            Rica, Guatemala, El Salvador, Honduras, Colombia, Bolivia, Ecuador & Paraguay.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section" id="client">
             <div class="row">
                 <div class="col s12">
+                    <h3 class="center-align teal-text text-accent-2">Clients</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/table_books.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+                <div class="col s12 m3">
+                    <img class="responsive-img" src="img/portofolio/oskar.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="location">
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="center-align teal-text text-accent-2">Our Location</h3>
+                </div>
+                <div id="map"></div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="row">
+                <div class="col s12 m8 offset-m2">
                     <h3 class="center-align teal-text text-accent-2">Contact</h3>
                 </div>
             </div>
             <div class="row">
-                <form class="col s12">
+                <form class="col s12 m10 offset-m1">
                     <div class="row">
                         <div class="input-field col s12 m4">
                             <input id="name" type="text" class="validate">
@@ -192,7 +326,7 @@
     <footer class="page-footer grey darken-3">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
+                <div class="col s12 m6">
                     <h5 class="white-text">Panama</h5>
                     <p class="teal-text text-accent-2">Oficina: (+507) 264-6898 / 264-5636</p>
                     <p class="teal-text text-accent-2">Correo: hola@jamprodesign.com</p>
@@ -202,11 +336,11 @@
         <div class="footer-copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col s3 m4">© 2010-2017 JamproDesigns</div>
+                    <div class="col s3 m4">© 2010-2017 JamproDesign</div>
                     <div class="col s9 m8">
-                        <a class="teal-text text-accent-2 right" href="#!"><i class="material-icons">invert_colors</i></a>
-                        <a class="teal-text text-accent-2 right" href="#!"><i class="material-icons">power_settings_new</i></a>
-                        <a class="teal-text text-accent-2 right" href="#!"><i class="material-icons">dialpad</i></a>
+                        <a class="white-text right" href="https://www.instagram.com/jamprodesign/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                        <a class="white-text right" href="https://twitter.com/jamprodesign"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                        <a class="white-text right" href="https://www.facebook.com/jamprodesign/?fref=ts"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
                     </div>
 
                 </div>
@@ -218,6 +352,25 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
+    <script>
+        function initMap() {
+            var uluru = { lat: 8.988971, lng: -79.5243938 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 18,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=API-KEY&callback=initMap"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
 </body>
 
 </html>

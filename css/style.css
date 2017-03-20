@@ -6,6 +6,19 @@ nav .brand-logo {
     padding-left: 10px;    
 }
 
+nav a {
+    text-transform: uppercase;
+}
+
+.side-nav a {
+    color: white;
+}
+
+/* navbar-fixed on mobile fix */
+#sidenav-overlay {
+    margin-left: 300px;
+}
+
 .services.row {
     margin-bottom: 0;
 }
@@ -17,6 +30,12 @@ nav .brand-logo {
 
 .card {
     margin: 0;
+    box-shadow: 0 0 0 0;
+
+}
+.card .card-title {
+    font-size: 2.92rem;
+    padding-bottom: 25px;
 }
 
 footer a {
@@ -40,14 +59,28 @@ header p {
 }
 
 main section .card,
-#portofolio,
+#project,
+#market,
 .damn {
     background-color: #424242;
 }
 
-.damn {
+.damn,
+#market {
     padding: 12vh;
 }
+
+#market p {
+    font-size: 1.4rem;
+}
+
+#services, 
+#project,
+#client,
+#contact {
+    padding: 8vh;
+}
+
 
 #services,
 #contact {
@@ -57,4 +90,10 @@ main section .card,
 
 .center-btn {
     text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
 }
