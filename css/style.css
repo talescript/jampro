@@ -1,100 +1,73 @@
-body {
+/* COLORS */
+body,
+#services,
+#contact,
+#client {
     background-color: black;
+    color: white;
 }
 
-nav .brand-logo {
-    padding-left: 10px;    
-}
-
-nav a {
-    text-transform: uppercase;
+main section .card,
+#project,
+#market,
+main section {
+    background-color: #424242;
 }
 
 .side-nav a {
     color: white;
 }
 
-/* navbar-fixed on mobile fix */
-#sidenav-overlay {
-    margin-left: 300px;
+/* Font Sizes */
+#market p,
+.card-content p,
+.card-reveal p,
+header p {
+    font-size: 1.6rem;
 }
 
-.services.row {
-    margin-bottom: 0;
+.services p {
+    font-size: 1.3rem;
 }
 
-#services {
-    padding-top: 25px;
-    padding-bottom: 25px;
+/* Styling */
+nav a {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .card {
     margin: 0;
     box-shadow: 0 0 0 0;
-
 }
-.card .card-title {
-    font-size: 2.92rem;
-    padding-bottom: 25px;
+
+/* Paddings and Margins */
+#about, #services,
+#project, #market,
+#client, #contact,
+#location {
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+.background {
+    padding-top: 8%;
+}
+
+.background {
+    background-image: url("../img/portofolio/coffee.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
 }
 
 footer a {
     margin-right: 15px;
 }
 
-header p {
-    font-size: 1.4rem;
-    color: white;
-}
-
-.background {
-    padding-top: 20%;
-}
-
-.background {
-    background-image: url("../img/portofolio/coffee.jpg");
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-}
-
-main section .card,
-#project,
-#market,
-.damn {
-    background-color: #424242;
-}
-
-.damn,
-#market {
-    padding: 12vh;
-}
-
-#market p {
-    font-size: 1.4rem;
-}
-
-#services, 
-#project,
-#client,
-#contact {
-    padding: 8vh;
-}
-
-#location {
-    padding-top: 8vh;
-    padding-bottom: 8vh;
-}
-
-
-#services,
-#contact {
-    background-color: black;
-    color: white;
-}
-
-.center-btn {
-    text-align: center;
+/* navbar-fixed on mobile fix */
+#sidenav-overlay {
+    margin-left: 300px;
 }
 
 #map {
