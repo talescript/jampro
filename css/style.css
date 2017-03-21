@@ -47,6 +47,18 @@ header img {
     width: 160px;
 }
 
+@media (max-width: 600px) {
+    #services img {
+        width: 96px;
+    }
+}
+
+@media (max-width: 992px) {
+    #services img {
+        width: 128px;
+    }
+}
+
 /* Paddings and Margins */
 #about, #services,
 #project, #market,
@@ -65,13 +77,6 @@ header img {
     background-repeat: no-repeat;
     height: 90vh;
     background-size: cover;
-}
-
-.splash {
-    background: url(../img/splash/jampro_splash_servicios.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
 }
 
 footer a {
