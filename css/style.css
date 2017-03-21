@@ -1,6 +1,5 @@
 /* COLORS */
 body,
-#services,
 #contact,
 #client {
     background-color: black;
@@ -8,26 +7,22 @@ body,
 }
 
 main section .card,
-#project,
 #market,
 main section {
     background-color: #424242;
 }
 
+#project {
+    background-color: black;
+}
+
+#services {
+    background-color: transparent;
+}
+
+
 .side-nav a {
     color: white;
-}
-
-/* Font Sizes */
-#market p,
-.card-content p,
-.card-reveal p,
-header p {
-    font-size: 1.6rem;
-}
-
-.services p {
-    font-size: 1.3rem;
 }
 
 /* Styling */
@@ -39,6 +34,17 @@ nav a {
 .card {
     margin: 0;
     box-shadow: 0 0 0 0;
+}
+nav img {
+    width: 192px;
+}
+
+header img {
+    width: 350px;
+}
+
+#services img {
+    width: 160px;
 }
 
 /* Paddings and Margins */
@@ -55,9 +61,15 @@ nav a {
 }
 
 .background {
-    background-image: url("../img/portofolio/coffee.jpg");
+    background-image: url("../img/splash/jampro_splash_header.jpg");
     background-repeat: no-repeat;
     height: 90vh;
+    background-size: cover;
+}
+
+.splash {
+    background: url(../img/splash/jampro_splash_servicios.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
