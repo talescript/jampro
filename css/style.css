@@ -77,6 +77,8 @@ header img {
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
+    margin: 1rem auto;
+    position: relative;
 }
 
 footer a {
