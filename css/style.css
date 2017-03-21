@@ -75,7 +75,7 @@ header img {
 .background {
     background-image: url("../img/splash/jampro_splash_header.jpg");
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
 }
 
