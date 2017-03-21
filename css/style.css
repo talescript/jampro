@@ -71,6 +71,7 @@ header img {
     background: url(../img/splash/jampro_splash_servicios.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 
 footer a {
