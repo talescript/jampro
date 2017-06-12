@@ -1,49 +1,30 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
-===========
+El orden de la lista de logos de clientes es es siguiente:
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+   * Servier
+   * Coca-cola FEMSA
+   * Interceramic
+   * L'Oréal
+   * La Roche-Posay
+   * Vichy
+   * L'Oréal Professionnel
+   * Kérastase
+   * Lancôme
+   * Biotherm
+   * YvesSainLaurent
+   * Giorgio Armani
 
-[Materialize](http://materializecss.com/), a CSS Framework based on material design
+Adicionalmente estos ajustes please:
 
-### Current Version : v0.97.8
-
-## Sass Requirements:
-- Ruby Sass 3.3+, LibSass 0.6+
-
-## Supported Browsers:
-Chrome 35+, Firefox 31+, Safari 7+, IE 10+
-
-## Changelog
-- v0.97.8 (October 30th, 2016)
-  - **Refactored Modal plugin**
-  - Tabs now supported in navbar
-  - Chips data can now be reinitiailized
-  - Minor side nav fixes
-  - FAB to toolbar component added
-  - Fixed dropdown options bug
-- v0.97.7 (July 23rd, 2016)
-  - Basic horizontal cards
-  - Carousel bug fixes and new features
-  - Updated sidenav styles and new component
-  - Meteor package now supports Sass
-  - Autocomplete form component
-  - Chips jQuery plugin
-- v0.97.6 (April 1st, 2016)
-  - **Removed deprecated material icons from project**
-  - **Changed /font directory to /fonts**
-  - Datepicker and ScrollSpy now compatible with jQuery 2.2.x
-  - Responsive tables now work with empty cells
-  - Added focus states to checkboxes, switches, and radio buttons
-  - Sidenav and Modals no longer cause flicker with scrollbar
-  - Materialbox overflow and z-index issues fixed
-  - Added new option for Card actions within a Card reveal
-- v0.97.5 (December 21st, 2015)
-  - Fixed Meteor package crash
+   * Fuente de los títulos en Museum 500
+   * Fuente párrafos Museum 300
+   * El párrafo de About con alineación "Centrada"
+   * Eliminar coma después de la palabra Leaders (descripción Relaciones Públicas)
+   * Agregar acento a la palabra "Públicas", "Creación" y "Tecnología"
+   * Eliminar esperado por nuestros clientes. (descripción Eventos)
+   * Agregar acento a la palabra
+   * Sustituir el texto: "alineado a las estrategias planteadas en combinación de" por la palabra después de la coma: "combinando 
+    "
+   * ​Agregar mapa en location, comparto el link: https://www.google.es/maps/place/Instituto+Neo+Arte/@8.9888624,-79.5263251,17z/data=!3m1!4b1!4m5!3m4!1s0x8faca8fa4a06c669:0xead4f4c73f180d2c!8m2!3d8.9888624!4d-79.5241364
+    ​
 
 
-
-## Contributing
-[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
-
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
