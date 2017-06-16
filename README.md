@@ -4,8 +4,6 @@ Adicionalmente estos ajustes please:
    * Fuente párrafos Museum 300
    * Agregar acento a la palabra ---> ???
    
-   * ​Agregar mapa en location, comparto el link: https://www.google.es/maps/place/Instituto+Neo+Arte/@8.9888624,-79.5263251,17z/data=!3m1!4b1!4m5!3m4!1s0x8faca8fa4a06c669:0xead4f4c73f180d2c!8m2!3d8.9888624!4d-79.5241364
-
    * Video de fondo. 
     ​
 
@@ -32,3 +30,5 @@ El orden de la lista de logos de clientes es es siguiente:
    * Eliminar esperado por nuestros clientes. (descripción Eventos)
    * Sustituir el texto: "alineado a las estrategias planteadas en combinación de" por la palabra después   
      de la coma: "combinando"
+
+  * ​Agregar mapa en location, comparto el link: https://www.google.es/maps/place/Instituto+Neo+Arte/@8.9888624,-79.5263251,  17z/data=!3m1!4b1!4m5!3m4!1s0x8faca8fa4a06c669:0xead4f4c73f180d2c!8m2!3d8.9888624!4d-79.5241364 
