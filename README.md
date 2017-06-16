@@ -9,7 +9,7 @@ Adicionalmente estos ajustes please:
    * Video de fondo. 
     ​
 
-### complete.
+## Complete.
 
 El orden de la lista de logos de clientes es es siguiente:
 
