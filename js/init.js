@@ -11,7 +11,22 @@ $(document).ready(function () {
 }); // end of document ready
 
 
-window.onload = function initMap() {
+window.onload = function() {
+  loadImages();
+  initMap();
+}
+
+
+function loadImages() {
+  var imgDefer = document.getElementsByTagName('img');
+  for (var i=0; i < imgDefer.length; i++) {
+    if (imgDefer[i].getAttribute('data-src')) {
+      imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+    }
+  }
+}
+
+function initMap() {
   var uluru = { lat: 8.988971, lng: -79.5243938 };
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 18,
