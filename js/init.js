@@ -10,11 +10,11 @@ $(document).ready(function () {
 
 }); // end of document ready
 
-
+/*
 window.onload = function() {
   loadImages();
   initMap();
-}
+} */
 
 
 function loadImages() {
