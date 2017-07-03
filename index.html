@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>Jampro Designs</title>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 <body>
@@ -361,8 +360,21 @@
             </div>
         </div>
     </footer>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLqW6Z5AaOmH9nuCPjvt_gqNDqCI4ZDag&callback=initMap" async defer></script> -->
+    <script type="text/javascript">
+        function downloadJSATOnload(){
+            var element = document.createElement("script");
+            element.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBLqW6Z5AaOmH9nuCPjvt_gqNDqCI4ZDag&callback=initMap";
+            document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", downloadJSATOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSATOnload);
+        else window.onload =downloadJSATOnload;
+    </script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLqW6Z5AaOmH9nuCPjvt_gqNDqCI4ZDag&callback=initMap" async defer></script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
         window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
