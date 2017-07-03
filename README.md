@@ -3,6 +3,22 @@ Adicionalmente estos ajustes please:
    * Agregar acento a la palabra ---> ???
    
    * Video de fondo. 
+
+### Files removed
+
+    cat materialize.min.css style.css > main.css
+
+    <!--
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" rel="stylesheet"> -->
+
+
+    cat jquery-2.1.1.min.js materialize.min.js init.js > main.js
+
+    <!--Import jQuery before materialize.js
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script> -->
     ​
 
 ## Complete.
