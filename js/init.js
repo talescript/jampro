@@ -12,7 +12,12 @@ $(document).ready(function () {
 
 window.onload = function() {
   loadImages();
-  initMap();
+  var gooM = document.getElementById("googleMap");
+  if (window.addEventListener)
+  window.addEventListener("load", initMap, false);
+  else if (window.attachEvent)
+  window.attachEvent("onload", initMap);
+  else window.onload = initMap;
 }
 
 function loadImages() {

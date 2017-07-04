@@ -365,19 +365,17 @@
     <script type="text/javascript">
         function downloadJSATOnload(){
             var element = document.createElement("script");
-            var el = document.createElement("script");
             element.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBLqW6Z5AaOmH9nuCPjvt_gqNDqCI4ZDag&callback=initMap";
-            el.src = "main.js";
+            element.setAttribute("id", "googleMap");
             document.body.appendChild(element);
-            document.body.appendChild(el);
         }
         if (window.addEventListener)
         window.addEventListener("load", downloadJSATOnload, false);
         else if (window.attachEvent)
         window.attachEvent("onload", downloadJSATOnload);
-        else window.onload =downloadJSATOnload;
+        else window.onload = downloadJSATOnload;
     </script>
-   <!-- <script type="text/javascript" src="js/main.js"></script> -->
+    <script type="text/javascript" src="js/main.js"></script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
         window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

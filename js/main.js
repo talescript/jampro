@@ -25,7 +25,12 @@ c==-(1/0)||c==1/0?e=c:b.isPlainObject(c)&&f.isInteger(c.pick)?c=c.obj:b.isArray(
 
 window.onload = function() {
   loadImages();
-  initMap();
+  var gooM = document.getElementById("googleMap");
+  if (window.addEventListener)
+  window.addEventListener("load", initMap, false);
+  else if (window.attachEvent)
+  window.attachEvent("onload", initMap);
+  else window.onload = initMap;
 }
 
 function loadImages() {
