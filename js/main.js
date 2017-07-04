@@ -34,11 +34,20 @@ window.onload = function() {
 }
 
 function loadImages() {
-  var imgDefer = document.getElementsByTagName('img');
+  var imgDefer = document.querySelectorAll('img');
+
   for (var i=0; i < imgDefer.length; i++) {
     if (imgDefer[i].getAttribute('data-src')) {
+      // var imgParent = imgDefer[i].parentNode.parentNode;
+      // imgParent.classList.remove('loadImg');
       imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
     }
+    [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+      img.setAttribute('src', img.getAttribute('data-src'));
+      img.onload = function() {
+        img.removeAttribute('data-src');
+      }
+    })
   }
 }
 
