@@ -128,7 +128,8 @@ footer a {
 
 img {
     opacity: 1;
-    transition: all 2s ease-in;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
 }
 
 img[data-src] {
