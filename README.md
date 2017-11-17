@@ -1,6 +1,6 @@
 # Jampro Design
 
-This was the first website that was created in conjunction with a designer.
+This was the first and only website that I created in conjunction with a designer (as of November 16, 2017).
 The project used [Materialize CSS](http://materializecss.com/) 
 
 
