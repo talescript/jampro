@@ -28,3 +28,5 @@ function loadImages() {
   }
 }
 ```
+
+![Image of JamproPro Website](img/JamproFullpage.png)
